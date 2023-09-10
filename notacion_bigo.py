@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 # valores entrada
-n = np.linspace(1, 7, 50)  
+n = np.linspace(0, 20, 100)  
 
 # notacion big o
 O_1 = np.ones_like(n)
@@ -30,4 +30,5 @@ plt.legend()
 
 # mostrar gráfica
 plt.grid(True)
+plt.ylim(0,100)
 plt.show()
